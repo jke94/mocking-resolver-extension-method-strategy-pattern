@@ -14,6 +14,8 @@
 
         public const string WireTransfer = "WireTransfer";
 
+        public const string MonopoleyMoney = "MonopolyMoney";
+
         #endregion
     }
 }
