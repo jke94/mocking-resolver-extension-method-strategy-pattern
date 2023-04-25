@@ -3,7 +3,6 @@
     #region using
 
     using Microsoft.Extensions.DependencyInjection;
-    using MoqExtensionMethod.ConsoleApp.Strategies;
 
     #endregion
 
@@ -18,8 +17,9 @@
 
             var serviceProvider = serviceCollection.BuildServiceProvider();
 
+            // Select the strategy, for example to carry out a payment with a Debit strategy.
 
-            var paymement = serviceProvider.GetStrategy(StrategyName.Debit);
+            var paymement = serviceProvider.GetPaymentStrategy(StrategyName.Debit);
 
             await paymement.MakePayment();
 

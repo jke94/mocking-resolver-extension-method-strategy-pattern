@@ -9,7 +9,7 @@
 
     public static class StrategyResolverExtension
     {
-        public static IStrategy GetStrategy(
+        public static IStrategy GetPaymentStrategy(
             this IServiceProvider serviceProvider, string strategy)
         {
             return strategy switch
