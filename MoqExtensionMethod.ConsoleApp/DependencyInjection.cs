@@ -7,7 +7,7 @@
 
     #endregion
 
-    public static class StrategiesDepencyInjection
+    public static class DependencyInjection
     {
         public static IServiceCollection AddStrategies(this IServiceCollection services)
         {
