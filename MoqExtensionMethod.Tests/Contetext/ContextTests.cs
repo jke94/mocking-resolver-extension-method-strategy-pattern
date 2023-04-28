@@ -1,15 +1,12 @@
 ﻿namespace MoqExtensionMethod.Tests.Contetext
 {
-
     #region using
 
     using Moq;
     using NUnit.Framework;
-    using MoqExtensionMethod.ConsoleApp.Contetext;
     using MoqExtensionMethod.ConsoleApp;
     using Microsoft.Extensions.DependencyInjection;
     using MoqExtensionMethod.ConsoleApp.Strategies;
-    using NUnit.Framework.Internal;
 
     #endregion
 
